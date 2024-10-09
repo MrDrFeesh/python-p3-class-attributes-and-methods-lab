@@ -45,7 +45,6 @@ class Song:
         else:
             cls.artist_count[artist] = 1
 
-# Example usage
 ninety_nine_problems = Song("99 Problems", "Jay-Z", "Rap")
 print(ninety_nine_problems.name)  # "99 Problems"
 print(ninety_nine_problems.artist)  # "Jay-Z"
